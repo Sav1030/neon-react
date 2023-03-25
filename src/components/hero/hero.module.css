@@ -1,0 +1,68 @@
+.hero {
+	background-image: url('/assets/images/hero-illustration.svg'),
+		linear-gradient(var(--dark-400) 75%, var(--dark-200));
+	background-position-x: 50%;
+	background-repeat: no-repeat;
+	height: 626px;
+}
+
+.heroContent {
+	width: min(1104px, 95%);
+	margin: 0 auto;
+	padding-top: 100px;
+}
+
+.metalButton {
+	display: inline-block;
+	position: relative;
+	background-color: var(--dark-200);
+	color: var(--neutral-100);
+	font-size: 14px;
+	line-height: 1.57;
+	padding: 0.5em 2em;
+	border-radius: 1rem;
+	z-index: 0;
+}
+
+.metalButton::before,
+.metalButton::after {
+	content: '';
+	position: absolute;
+	border-radius: 1rem;
+	z-index: -1;
+}
+
+.metalButton::before {
+	inset: 0;
+	background-image: linear-gradient(
+		var(--dark-300),
+		var(--dark-150),
+		var(--dark-300)
+	);
+}
+
+.metalButton::after {
+	inset: 2px;
+	background-color: var(--dark-200);
+}
+
+.heroTitle {
+	margin: 0;
+	width: 60%;
+	font-family: 'Uncut-Sans-Bold';
+	font-size: 5rem;
+	line-height: 1;
+	color: var(--almost-white);
+}
+
+.heroText {
+	width: 60%;
+	font-size: 20px;
+	line-height: 1.5;
+	color: var(--neutral-100);
+}
+
+.list {
+	display: flex;
+	gap: 1rem;
+}

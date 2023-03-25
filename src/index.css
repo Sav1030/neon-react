@@ -1,3 +1,55 @@
+:root {
+	--accent: hsl(221, 83%, 53%);
+	--accent-light: hsl(213, 94%, 68%);
+
+	--neutral-100: hsl(218, 11%, 65%);
+	--neutral-200: hsl(227, 9%, 57%);
+
+	--dark-100: hsl(217, 19%, 27%);
+	--dark-150: hsl(215, 14%, 33%);
+	--dark-200: hsl(215, 28%, 17%);
+	--dark-300: hsl(215, 27%, 17%);
+	--dark-400: hsl(221, 39%, 11%);
+
+	--almost-white: #f3f4f6;
+}
+
+@font-face {
+	font-family: 'Uncut-Sans-Bold';
+	font-weight: 700;
+	src: url('assets/fonts/uncut-sans-bold.woff2') format('woff2'),
+		url('assets/fonts/uncut-sans-bold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Uncut-Sans-Bold-Italic';
+	font-weight: 700;
+	src: url('assets/fonts/uncut-sans-bold-italic.woff2') format('woff2'),
+		url('assets/fonts/uncut-sans-bold-italic.woff') format('woff');
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
 body {
-	font-family: sans-serif;
+	margin: 0;
+	font-family: 'Inter', sans-serif;
+}
+
+img,
+video {
+	max-width: 100%;
+	display: block;
+}
+ul {
+	list-style: none;
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+a {
+	text-decoration: none;
+	color: inherit;
 }

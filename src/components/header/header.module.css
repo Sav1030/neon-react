@@ -1,0 +1,27 @@
+.header {
+	position: absolute;
+	inset: 0 0 auto 0;
+	padding-top: 1rem;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	width: min(1104px, 95%);
+	margin: 0 auto;
+}
+
+.navLink {
+	color: var(--neutral-200);
+}
+
+.list {
+	display: flex;
+	gap: 2rem;
+	align-items: center;
+	font-weight: 500;
+}
+
+.logo {
+	width: 2rem;
+}

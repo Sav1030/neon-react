@@ -1,0 +1,22 @@
+.button {
+	padding: 1em 1.5em;
+	border-radius: 0.25rem;
+	box-shadow: 0px 0.25rem 0.875rem rgba(0, 0, 0, 0.5);
+	color: white;
+}
+
+.accent {
+	background-image: linear-gradient(var(--accent-light), var(--accent));
+}
+
+.accent:hover {
+	background: var(--accent);
+}
+
+.regular {
+	background-image: linear-gradient(var(--dark-100), var(--dark-200));
+}
+
+.regular:hover {
+	background: var(--dark-200);
+}
