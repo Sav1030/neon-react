@@ -13,7 +13,7 @@ const Header = () => {
 						</a>
 					</li>
 					<li>
-						<Button text={'Get Started'} type={'accent'} />
+						<Button text={'Get Started'} type={'accent'} arrow={true} />
 					</li>
 				</ul>
 			</nav>

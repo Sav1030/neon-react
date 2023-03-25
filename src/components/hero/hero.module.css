@@ -3,24 +3,31 @@
 		linear-gradient(var(--dark-400) 75%, var(--dark-200));
 	background-position-x: 50%;
 	background-repeat: no-repeat;
-	height: 626px;
 }
 
 .heroContent {
 	width: min(1104px, 95%);
 	margin: 0 auto;
-	padding-top: 100px;
+	padding: 10rem 0 5rem;
+	text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+	.heroContent {
+		text-align: left;
+	}
 }
 
 .metalButton {
+	margin: 0 0 1.5rem;
+	padding: 0.3em 1.5em;
 	display: inline-block;
 	position: relative;
 	background-color: var(--dark-200);
 	color: var(--neutral-100);
 	font-size: 14px;
 	line-height: 1.57;
-	padding: 0.5em 2em;
-	border-radius: 1rem;
+	border-radius: 2rem;
 	z-index: 0;
 }
 
@@ -28,7 +35,7 @@
 .metalButton::after {
 	content: '';
 	position: absolute;
-	border-radius: 1rem;
+	border-radius: 2rem;
 	z-index: -1;
 }
 
@@ -46,23 +53,65 @@
 	background-color: var(--dark-200);
 }
 
+.metalButtonLink {
+	font-weight: 500;
+	color: var(--accent-300);
+}
+
+.arrowLink {
+	display: inline-block;
+}
+
+.metalButtonLink:hover .arrowLink {
+	transform: translateX(4px);
+}
+
 .heroTitle {
-	margin: 0;
-	width: 60%;
+	width: min(576px, 95%);
+	margin: 0 auto 1.5rem;
 	font-family: 'Uncut-Sans-Bold';
-	font-size: 5rem;
+	font-size: 3.75rem;
 	line-height: 1;
 	color: var(--almost-white);
 }
 
+@media screen and (min-width: 768px) {
+	.heroTitle {
+		width: 60%;
+		margin: 0 0 1.5rem;
+		font-size: 5rem;
+	}
+}
+
 .heroText {
-	width: 60%;
-	font-size: 20px;
+	width: min(576px, 95%);
+	margin: 0 auto 2.5rem;
+	font-size: 1.25rem;
 	line-height: 1.5;
 	color: var(--neutral-100);
 }
 
+@media screen and (min-width: 768px) {
+	.heroText {
+		width: 60%;
+		margin: 0 0 2.5rem;
+	}
+}
+
 .list {
+	max-width: 320px;
+	margin: 0 auto;
 	display: flex;
+	flex-direction: column;
+	align-items: stretch;
 	gap: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+	.list {
+		max-width: 60%;
+		margin: 0;
+		flex-direction: row;
+		align-items: center;
+	}
 }

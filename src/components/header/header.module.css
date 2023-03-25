@@ -1,7 +1,13 @@
 .header {
 	position: absolute;
 	inset: 0 0 auto 0;
-	padding-top: 1rem;
+	padding-top: 0.75rem;
+}
+
+@media screen and (min-width: 768px) {
+	.header {
+		padding-top: 1.5rem;
+	}
 }
 
 .nav {
@@ -12,7 +18,11 @@
 }
 
 .navLink {
-	color: var(--neutral-200);
+	color: var(--neutral-100);
+}
+
+.navLink:hover {
+	color: var(--accent-300);
 }
 
 .list {

@@ -6,7 +6,10 @@ const Hero = () => {
 		<section className={style.hero}>
 			<div className={style.heroContent}>
 				<p className={style.metalButton}>
-					Launching Infinite Workspaces. <a href='#'>Learn More</a>
+					Launching Infinite Workspaces.{' '}
+					<a href='#' className={style.metalButtonLink}>
+						Learn More <span className={style.arrowLink}>{'->'}</span>
+					</a>
 				</p>
 				<h1 className={style.heroTitle}>
 					Where the world builds <em>software</em>
@@ -17,7 +20,11 @@ const Hero = () => {
 				</p>
 				<ul className={style.list}>
 					<li>
-						<Button text={'Get Started For Free'} type={'accent'} />
+						<Button
+							text={'Get Started For Free'}
+							type={'accent'}
+							arrow={true}
+						/>
 					</li>
 					<li>
 						<Button text={'Explore Docs'} type={'regular'} />
