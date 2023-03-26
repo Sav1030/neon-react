@@ -13,7 +13,7 @@
 .nav {
 	display: flex;
 	justify-content: space-between;
-	width: min(1104px, 95%);
+	width: var(--max-width);
 	margin: 0 auto;
 }
 

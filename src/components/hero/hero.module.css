@@ -1,12 +1,12 @@
 .hero {
 	background-image: url('/assets/images/hero-illustration.svg'),
-		linear-gradient(transparent 75%, var(--dark-200));
+		linear-gradient(transparent 75%, var(--dark-200-6));
 	background-position-x: 50%;
 	background-repeat: no-repeat;
 }
 
 .heroContent {
-	width: min(1104px, 95%);
+	width: var(--max-width);
 	margin: 0 auto;
 	padding: 10rem 0 5rem;
 	text-align: center;

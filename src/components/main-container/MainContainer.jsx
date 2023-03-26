@@ -1,4 +1,5 @@
-import Focus from '../focus/Focus';
+import Features from '../features/Features';
+import Features2 from '../features2/Features2';
 import Header from '../header/Header';
 import Hero from '../hero/Hero';
 
@@ -7,7 +8,8 @@ const MainContainer = () => {
 		<div>
 			<Header />
 			<Hero />
-			<Focus />
+			<Features />
+			<Features2 />
 		</div>
 	);
 };

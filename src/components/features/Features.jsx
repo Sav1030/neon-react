@@ -1,14 +1,13 @@
-import { v4 } from 'uuid';
 import { FEATURES } from '../../constants/features';
 import { LOGOS } from '../../constants/logos';
-import style from './focus.module.css';
+import style from './features.module.css';
 
-const Focus = () => {
+const Features = () => {
 	return (
-		<section className={style.focus}>
+		<section className={style.features}>
 			<div className={style.logosGrid}>
 				{LOGOS.map(item => {
-					return <img key={v4()} src={item} />;
+					return <img key={item.id} src={item.src} />;
 				})}
 			</div>
 			<h2 className={style.title}>Focus on solving bigger problems</h2>
@@ -16,7 +15,7 @@ const Focus = () => {
 			<div className={style.featuresGrid}>
 				{FEATURES.map(item => {
 					return (
-						<article key={v4()} className={style.featuresCard}>
+						<article key={item.id} className={style.featuresCard}>
 							<img src={item.icon} />
 							<h3>{item.title}</h3>
 							<p>{item.body}</p>
@@ -28,4 +27,4 @@ const Focus = () => {
 	);
 };
 
-export default Focus;
+export default Features;
