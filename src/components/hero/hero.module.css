@@ -1,6 +1,6 @@
 .hero {
 	background-image: url('/assets/images/hero-illustration.svg'),
-		linear-gradient(var(--dark-400) 75%, var(--dark-200));
+		linear-gradient(transparent 75%, var(--dark-200));
 	background-position-x: 50%;
 	background-repeat: no-repeat;
 }
@@ -88,7 +88,7 @@
 	margin: 0 auto 2.5rem;
 	font-size: 1.25rem;
 	line-height: 1.5;
-	color: var(--neutral-100);
+	color: inherit;
 }
 
 @media screen and (min-width: 768px) {

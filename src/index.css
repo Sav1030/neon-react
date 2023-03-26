@@ -11,7 +11,6 @@
 	--dark-200: hsl(215, 28%, 17%);
 	--dark-300: hsl(215, 27%, 17%);
 	--dark-400: hsl(221, 39%, 11%);
-
 	--almost-white: #f3f4f6;
 }
 
@@ -38,6 +37,8 @@
 body {
 	margin: 0;
 	font-family: 'Inter', sans-serif;
+	background-color: var(--dark-400);
+	color: var(--neutral-100);
 }
 
 img,
