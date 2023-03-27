@@ -1,0 +1,16 @@
+.title {
+	max-width: 48rem;
+	margin: 0 auto 1rem;
+	color: var(--almost-white);
+	font-family: 'Uncut-Sans-Bold';
+	font-size: 2.25rem;
+	font-weight: 700;
+	line-height: 1.18;
+	text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+	.title {
+		font-size: 3rem;
+	}
+}

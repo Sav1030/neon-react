@@ -13,16 +13,13 @@ header .button {
 	padding: 0.6em 1em;
 }
 
-.arrow {
-	width: 1rem;
-}
-
-.button:hover .arrow {
-	transform: translateX(0.2rem);
-}
-
 .accent {
 	background-image: linear-gradient(var(--accent-light), var(--accent));
+}
+
+.accentSmall {
+	background-image: linear-gradient(var(--accent-light), var(--accent));
+	padding: 0.6em 1.5em;
 }
 
 .accent:hover {

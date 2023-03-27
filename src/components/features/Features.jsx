@@ -1,5 +1,6 @@
 import { FEATURES } from '../../constants/features';
 import { LOGOS } from '../../constants/logos';
+import SectionTitle from '../section-title/SectionTitle';
 import style from './features.module.css';
 
 const Features = () => {
@@ -10,7 +11,7 @@ const Features = () => {
 					return <img key={item.id} src={item.src} />;
 				})}
 			</div>
-			<h2 className={style.title}>Focus on solving bigger problems</h2>
+			<SectionTitle>Focus on solving bigger problems</SectionTitle>
 			<img src='/assets/images/features.svg' alt='Features' />
 			<div className={style.featuresGrid}>
 				{FEATURES.map(item => {

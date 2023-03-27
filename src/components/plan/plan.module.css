@@ -55,10 +55,16 @@
 .text {
 	font-size: 1rem;
 	line-height: 1.5;
+	margin-bottom: 1.5rem;
 }
 
 .listTitle {
 	color: var(--almost-white);
+	margin: 1.5rem 0 1rem;
+}
+
+.listItem {
+	margin-bottom: 0.75rem;
 }
 
 .listItem::before {

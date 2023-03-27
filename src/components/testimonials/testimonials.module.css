@@ -1,0 +1,61 @@
+.testimonials {
+	padding-top: 5rem;
+}
+
+.grid {
+	position: relative;
+	max-width: 24rem;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 3rem;
+}
+
+@media screen and (min-width: 640px) {
+	.grid {
+		max-width: var(--max-width);
+		grid-template-columns: repeat(2, 1fr);
+		row-gap: 2rem;
+		column-gap: 1.5rem;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.grid {
+		max-width: var(--max-width);
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+.card {
+	background-color: var(--dark-200);
+	padding: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: start;
+}
+
+.avatar {
+	width: 3rem;
+	border-radius: 50%;
+}
+
+.author {
+	margin: auto 0 0;
+	color: var(--neutral-300);
+	font-size: 14px;
+}
+
+p a {
+	color: var(--accent-300);
+}
+
+.overlay {
+	position: absolute;
+	z-index: 10;
+	bottom: 0;
+	height: 15rem;
+	width: 100%;
+	background-image: linear-gradient(transparent, var(--dark-400));
+}

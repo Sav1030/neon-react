@@ -1,3 +1,5 @@
+import SectionSubtitle from '../section-subtitle/SectionSubtitle';
+import SectionTitle from '../section-title/SectionTitle';
 import style from './features2.module.css';
 
 const Features2 = () => {
@@ -5,13 +7,13 @@ const Features2 = () => {
 		<section className={style.features}>
 			<div className={style.featuresContent}>
 				<div className={style.heading}>
-					<h2 className={style.title}>
+					<SectionTitle>
 						Use sensitive data without sacrificing privacy
-					</h2>
-					<p className={style.text}>
-						Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-						officia deserunt mollit anim id est.
-					</p>
+					</SectionTitle>
+					<SectionSubtitle
+						content='Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+						officia deserunt mollit anim id est.'
+					/>
 				</div>
 				<article className={style.twoCols}>
 					<div>

@@ -1,0 +1,7 @@
+.arrow {
+	width: 1rem;
+}
+
+a:hover .arrow {
+	transform: translateX(0.2rem);
+}

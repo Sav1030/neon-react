@@ -15,7 +15,7 @@ const Plan = ({
 			<h3 className={style.title}>{name}</h3>
 			<p className={style.price}>{priceMonth}</p>
 			<p className={style.text}>{description}</p>
-			<Button text='Start Free Trial' type='accent' arrow={true} />
+			<Button text='Start Free Trial' type='accentSmall' arrow={true} />
 			<p className={style.listTitle}>{featuresTitle}</p>
 			<ul>
 				{features.map(item => {
