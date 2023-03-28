@@ -3,6 +3,7 @@ import Features2 from '../features2/Features2';
 import Header from '../header/Header';
 import Hero from '../hero/Hero';
 import Pricing from '../pricing/pricing';
+import Resources from '../resources/Resources';
 import Testimonials from '../testimonials/Testimonials';
 
 const MainContainer = () => {
@@ -14,6 +15,7 @@ const MainContainer = () => {
 			<Features2 />
 			<Pricing />
 			<Testimonials />
+			<Resources />
 		</div>
 	);
 };
