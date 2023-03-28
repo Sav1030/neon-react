@@ -1,3 +1,32 @@
 .resources {
 	padding: 5rem 0;
 }
+
+.tabTitlesContainer {
+	display: flex;
+	justify-content: center;
+	gap: 1.25rem;
+}
+
+.tabInfoContainer {
+	max-width: 24rem;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1rem;
+}
+
+@media screen and (min-width: 640px) {
+	.tabInfoContainer {
+		max-width: var(--max-width);
+		grid-template-columns: repeat(2, 1fr);
+		row-gap: 2rem;
+		column-gap: 1.5rem;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.tabInfoContainer {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}

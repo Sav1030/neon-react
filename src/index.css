@@ -2,6 +2,7 @@
 	--accent: hsl(221, 83%, 53%);
 	--accent-300: hsl(217, 91%, 60%);
 	--accent-light: hsl(213, 94%, 68%);
+	--secondary: hsl(271, 91%, 65%);
 
 	--neutral-100: hsl(219, 11%, 65%);
 	--neutral-200: hsl(227, 9%, 57%);
@@ -35,7 +36,7 @@
 *::after,
 *::before {
 	box-sizing: border-box;
-	outline: 0px dashed rgba(255, 0, 0, 0.4);
+	outline: 1px dashed rgba(255, 0, 0, 0.4);
 }
 body {
 	margin: 0;

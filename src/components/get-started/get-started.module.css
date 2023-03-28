@@ -1,0 +1,12 @@
+.container {
+	width: var(--max-width);
+	margin: 0 auto;
+	padding: 4rem 3rem;
+	background-image: url('/assets/images/cta-illustration.svg'),
+		linear-gradient(var(--secondary), var(--accent));
+	background-position: right center;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
