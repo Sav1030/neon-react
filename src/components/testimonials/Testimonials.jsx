@@ -5,7 +5,7 @@ import style from './testimonials.module.css';
 const Testimonials = () => {
 	return (
 		<section className={style.testimonials}>
-			<SectionTitle>
+			<SectionTitle margin={'large'}>
 				Sound too good? Hear what our customers have to say
 			</SectionTitle>
 			<div className={style.grid}>

@@ -8,13 +8,19 @@ const Resources = () => {
 	const [activeTab, setActiveTab] = useState(0);
 	return (
 		<section className={style.resources}>
-			<SectionTitle>
+			<SectionTitle margin={'large'}>
 				Resources to help you get the most out of Neon
 			</SectionTitle>
 			<div className={style.tabTitlesContainer}>
 				{tabsContent.map((item, index) => {
 					return (
-						<p key={item.key} onClick={() => setActiveTab(index)}>
+						<p
+							key={item.key}
+							className={`${style.tabTitle} ${
+								index === activeTab && style.tabTitleActive
+							}`}
+							onClick={() => setActiveTab(index)}
+						>
 							{item.title}
 						</p>
 					);

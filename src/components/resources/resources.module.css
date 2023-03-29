@@ -3,9 +3,54 @@
 }
 
 .tabTitlesContainer {
+	margin: 0 auto 3.375rem;
 	display: flex;
 	justify-content: center;
 	gap: 1.25rem;
+}
+
+.tabTitle {
+	position: relative;
+	background-color: var(--dark-200);
+	padding: 0.4em 1em;
+	border-radius: 2rem;
+	cursor: pointer;
+}
+
+.tabTitle::after {
+	content: '';
+	position: absolute;
+	inset: 0;
+	z-index: -1;
+	background-color: var(--dark-200);
+	border-radius: 2rem;
+}
+
+.tabTitle::before {
+	content: '';
+	position: absolute;
+	inset: -2px;
+	z-index: -1;
+	border-radius: 2rem;
+	background-image: linear-gradient(
+		var(--dark-300),
+		var(--dark-150),
+		var(--dark-300)
+	);
+}
+
+.tabTitleActive {
+	color: var(--accent);
+	transform: rotate(2deg);
+	box-shadow: 0 0.3rem 1rem -0.5rem var(--accent);
+}
+
+.tabTitleActive::before {
+	background-image: linear-gradient(
+		var(--dark-200),
+		var(--neutral-300),
+		var(--dark-200)
+	);
 }
 
 .tabInfoContainer {

@@ -7,7 +7,7 @@ const Features2 = () => {
 		<section className={style.features}>
 			<div className={style.featuresContent}>
 				<div className={style.heading}>
-					<SectionTitle>
+					<SectionTitle margin={'small'}>
 						Use sensitive data without sacrificing privacy
 					</SectionTitle>
 					<SectionSubtitle

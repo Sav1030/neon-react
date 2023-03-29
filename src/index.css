@@ -12,7 +12,7 @@
 	--dark-150: hsl(215, 14%, 33%);
 	--dark-200: hsl(215, 28%, 17%);
 	--dark-200-6: hsla(215, 28%, 17%, 0.6);
-	--dark-300: hsl(215, 27%, 17%);
+	--dark-300: hsl(217, 26%, 17%);
 	--dark-400: hsl(221, 39%, 11%);
 	--almost-white: hsl(220, 14%, 96%);
 	--max-width: min(1104px, 95%);
@@ -36,7 +36,7 @@
 *::after,
 *::before {
 	box-sizing: border-box;
-	outline: 1px dashed rgba(255, 0, 0, 0.4);
+	outline: 0px dashed rgba(255, 0, 0, 0.4);
 }
 body {
 	margin: 0;

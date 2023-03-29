@@ -7,18 +7,18 @@ const tabsContent = [
 		cards: [
 			{
 				key: v4(),
-				icon: 'public/assets/images/telegram.svg',
+				icon: '/assets/images/telegram.svg',
 				title: 'Neon Telegram'
 			},
 			{
 				key: v4(),
-				icon: 'public/assets/images/github.svg',
+				icon: '/assets/images/github.svg',
 				title: 'Neon GitHub'
 			},
-			{ key: v4(), icon: 'public/assets/images/docs.svg', title: 'Neon Docs' },
+			{ key: v4(), icon: '/assets/images/docs.svg', title: 'Neon Docs' },
 			{
 				key: v4(),
-				icon: 'public/assets/images/youtube.svg',
+				icon: '/assets/images/youtube.svg',
 				title: 'Neon Tutorials'
 			}
 		]
@@ -29,18 +29,18 @@ const tabsContent = [
 		cards: [
 			{
 				key: v4(),
-				icon: 'public/assets/images/discord.svg',
+				icon: '/assets/images/discord.svg',
 				title: 'Neon Discord'
 			},
 			{
 				key: v4(),
-				icon: 'public/assets/images/medium.svg',
+				icon: '/assets/images/medium.svg',
 				title: 'Neon Medium'
 			},
-			{ key: v4(), icon: 'public/assets/images/docs.svg', title: 'Neon Docs' },
+			{ key: v4(), icon: '/assets/images/docs.svg', title: 'Neon Docs' },
 			{
 				key: v4(),
-				icon: 'public/assets/images/youtube.svg',
+				icon: '/assets/images/youtube.svg',
 				title: 'Neon Tutorials'
 			}
 		]
@@ -51,20 +51,20 @@ const tabsContent = [
 		cards: [
 			{
 				key: v4(),
-				icon: 'public/assets/images/telegram.svg',
+				icon: '/assets/images/telegram.svg',
 				title: 'Neon Telegram'
 			},
 			{
 				key: v4(),
-				icon: 'public/assets/images/discord.svg',
+				icon: '/assets/images/discord.svg',
 				title: 'Neon Discord'
 			},
 			{
 				key: v4(),
-				icon: 'public/assets/images/medium.svg',
+				icon: '/assets/images/medium.svg',
 				title: 'Neon Medium'
 			},
-			{ key: v4(), icon: 'public/assets/images/docs.svg', title: 'Neon Docs' }
+			{ key: v4(), icon: '/assets/images/docs.svg', title: 'Neon Docs' }
 		]
 	},
 	{
@@ -73,22 +73,22 @@ const tabsContent = [
 		cards: [
 			{
 				key: v4(),
-				icon: 'public/assets/images/telegram.svg',
+				icon: '/assets/images/telegram.svg',
 				title: 'Neon Telegram'
 			},
 			{
 				key: v4(),
-				icon: 'public/assets/images/medium.svg',
+				icon: '/assets/images/medium.svg',
 				title: 'Neon Medium'
 			},
 			{
 				key: v4(),
-				icon: 'public/assets/images/github.svg',
+				icon: '/assets/images/github.svg',
 				title: 'Neon GitHub'
 			},
 			{
 				key: v4(),
-				icon: 'public/assets/images/youtube.svg',
+				icon: '/assets/images/youtube.svg',
 				title: 'Neon Tutorials'
 			}
 		]

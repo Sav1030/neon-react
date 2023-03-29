@@ -1,5 +1,6 @@
 import Features from '../features/Features';
 import Features2 from '../features2/Features2';
+import Footer from '../footer/Footer';
 import GetStarted from '../get-started/GetStarted';
 import Header from '../header/Header';
 import Hero from '../hero/Hero';
@@ -18,6 +19,7 @@ const MainContainer = () => {
 			<Testimonials />
 			<Resources />
 			<GetStarted />
+			<Footer />
 		</div>
 	);
 };

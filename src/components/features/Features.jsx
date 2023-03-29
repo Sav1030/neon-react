@@ -11,7 +11,9 @@ const Features = () => {
 					return <img key={item.id} src={item.src} />;
 				})}
 			</div>
-			<SectionTitle>Focus on solving bigger problems</SectionTitle>
+			<SectionTitle margin={'large'}>
+				Focus on solving bigger problems
+			</SectionTitle>
 			<img src='/assets/images/features.svg' alt='Features' />
 			<div className={style.featuresGrid}>
 				{FEATURES.map(item => {

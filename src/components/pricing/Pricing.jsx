@@ -8,7 +8,9 @@ import style from './pricing.module.css';
 const Pricing = () => {
 	return (
 		<section className={style.pricing}>
-			<SectionTitle>{`Find a plan that's right for you`}</SectionTitle>
+			<SectionTitle
+				margin={'small'}
+			>{`Find a plan that's right for you`}</SectionTitle>
 			<SectionSubtitle
 				content='Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
 						officia deserunt mollit anim id est.'
