@@ -36,8 +36,8 @@
 *::after,
 *::before {
 	box-sizing: border-box;
-	outline: 0px dashed rgba(255, 0, 0, 0.4);
 }
+
 body {
 	margin: 0;
 	font-family: 'Inter', sans-serif;
