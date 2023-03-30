@@ -22,12 +22,13 @@ header .button {
 	padding: 0.6em 1.5em;
 }
 
-.accent:hover {
-	background: var(--accent);
-}
-
 .regular {
 	background-image: linear-gradient(var(--dark-100), var(--dark-200));
+}
+
+.accent:hover,
+.accentSmall:hover {
+	background: var(--accent);
 }
 
 .regular:hover {

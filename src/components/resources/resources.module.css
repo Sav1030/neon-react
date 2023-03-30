@@ -3,16 +3,22 @@
 }
 
 .tabTitlesContainer {
+	max-width: 48rem;
 	margin: 0 auto 3.375rem;
+	padding: 0 2rem;
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 	gap: 1.25rem;
 }
 
 .tabTitle {
+	margin: 0;
+	padding: 0.4em 1em;
+	max-width: 11rem;
+	text-align: center;
 	position: relative;
 	background-color: var(--dark-200);
-	padding: 0.4em 1em;
 	border-radius: 2rem;
 	cursor: pointer;
 }

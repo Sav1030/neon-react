@@ -1,5 +1,7 @@
 .pricing {
 	padding: 5rem 0;
+	max-width: var(--max-width);
+	margin: 0 auto;
 }
 
 .cardContainer {

@@ -8,12 +8,13 @@
 .heroContent {
 	width: var(--max-width);
 	margin: 0 auto;
-	padding: 10rem 0 5rem;
+	padding: 8rem 0 5rem;
 	text-align: center;
 }
 
 @media screen and (min-width: 768px) {
 	.heroContent {
+		padding: 10rem 0 5rem;
 		text-align: left;
 	}
 }
