@@ -3,13 +3,15 @@
 // import Plan from '../plan/Plan';
 // import SectionSubtitle from '../section-subtitle/SectionSubtitle';
 // import SectionTitle from '../section-title/SectionTitle';
-import style from './pricing.module.css';
+// import style from './pricing.module.css';
 
 const Pricing = () => {
 	return (
-		<section className={style.pricing}>
+		<>
 			<h2>TEST</h2>
-			{/* <SectionTitle
+
+			{/* <section className={style.pricing}>			
+			<SectionTitle
 				margin={'small'}
 			>{`Find a plan that's right for you`}</SectionTitle>
 			<SectionSubtitle
@@ -20,8 +22,9 @@ const Pricing = () => {
 				{PLANS.map(item => {
 					return <Plan key={v4()} {...item} />;
 				})}
-			</div> */}
-		</section>
+			</div> 
+		</section> */}
+		</>
 	);
 };
 
