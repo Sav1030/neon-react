@@ -1,6 +1,6 @@
-import { v4 } from 'uuid';
-import { PLANS } from '../../constants/plans';
-import Plan from '../plan/Plan';
+// import { v4 } from 'uuid';
+// import { PLANS } from '../../constants/plans';
+// import Plan from '../plan/Plan';
 import SectionSubtitle from '../section-subtitle/SectionSubtitle';
 import SectionTitle from '../section-title/SectionTitle';
 import style from './pricing.module.css';
@@ -15,11 +15,11 @@ const Pricing = () => {
 				content='Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
 						officia deserunt mollit anim id est.'
 			/>
-			<div className={style.cardContainer}>
+			{/* <div className={style.cardContainer}>
 				{PLANS.map(item => {
 					return <Plan key={v4()} {...item} />;
 				})}
-			</div>
+			</div> */}
 		</section>
 	);
 };
