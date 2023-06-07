@@ -4,7 +4,7 @@ import Footer from '../footer/Footer';
 import GetStarted from '../get-started/GetStarted';
 import Header from '../header/Header';
 import Hero from '../hero/Hero';
-import Pricing from '../pricing/pricing';
+// import Pricing from '../pricing/pricing';
 import Resources from '../resources/Resources';
 import Testimonials from '../testimonials/Testimonials';
 
@@ -15,7 +15,7 @@ const MainContainer = () => {
 			<Hero />
 			<Features />
 			<Features2 />
-			<Pricing />
+			{/* <Pricing /> */}
 			<Testimonials />
 			<Resources />
 			<GetStarted />
