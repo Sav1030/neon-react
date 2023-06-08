@@ -1,4 +1,4 @@
-.pricing {
+.billing {
 	padding: 5rem 0;
 	max-width: var(--max-width);
 	margin: 0 auto;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (min-width: 768px) {
-	.pricing {
+	.billing {
 		background-image: url('/assets/images/pricing-illustration.svg');
 		background-position: center bottom;
 		background-repeat: no-repeat;
